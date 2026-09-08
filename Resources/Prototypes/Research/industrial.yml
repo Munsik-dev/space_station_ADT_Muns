@@ -15,7 +15,7 @@
   - OreProcessorIndustrialMachineCircuitboard
   - ClothingMaskWeldingGas
   # - ClothingShoesBootsJump ADT tweak
-# ADT Research Console Rework start
+  # ADT Research Console Rework start
   position: 3,0
   requiredTech:
   - SpaceScanning
@@ -33,7 +33,7 @@
   recipeUnlocks:
   - RadarConsoleCircuitboard
   - HandHeldMassScanner
-# ADT Research Console Rework start
+  # ADT Research Console Rework start
   position: 2,0
   requiredTech:
   - PowerGeneration
@@ -52,7 +52,7 @@
   - PowerCellHigh
   - TurboItemRechargerCircuitboard
   - SMESAdvancedMachineCircuitboard
-# ADT Research Console Rework start
+  # ADT Research Console Rework start
   position: 0,-1
   requiredTech:
   - AdvancedAtmospherics
@@ -69,8 +69,8 @@
   cost: 10000
   recipeUnlocks:
   - FlatpackerMachineCircuitboard
-  - SheetifierMachineCircuitboard # ADT Tweak
-# ADT Research Console Rework start
+  - SheetifierMachineCircuitboard # ADT-Tweak
+  # ADT Research Console Rework start
   position: 2,1
   requiredTech:
   - SpaceScanning
@@ -127,7 +127,7 @@
   recipeUnlocks:
   - ThermomachineFreezerMachineCircuitBoard
   - GasRecyclerMachineCircuitboard
-# ADT Research Console Rework start
+  # ADT Research Console Rework start
   position: 2,-1
   requiredTech:
   - SpaceScanning
@@ -170,7 +170,7 @@
   - ThrusterMachineCircuitboard
   - GyroscopeMachineCircuitboard
   - MiniGravityGeneratorCircuitboard
-# ADT Research Console Rework start
+  # ADT Research Console Rework start
   position: 3,2
   requiredTech:
   - MechanicalCompression
@@ -236,9 +236,9 @@
     - AdvancedMineralScannerEmpty
     - ADTBorgModuleAdvancedSalvage # ADT-Tweak
   # ADT Research Console Rework start
-  position: 5,-1
+  position: 5,1
   requiredTech:
-  - SalvageEquipment
+  - AdvSalvageWeapons
   # ADT Research Console Rework end
 
 # Tier 3
@@ -257,24 +257,24 @@
   - ClothingBackpackSatchelHolding
   - ClothingBackpackDuffelHolding
   - ADTBotanistBagOfHolding #ADT-Tweak
-# ADT Research Console Rework start
+  # ADT Research Console Rework start
   position: 2,-3
   requiredTech:
   - ADTCompactTechnologies
   - ADTIndustrialMODsuitMODs
   # ADT Research Console Rework end
 
-#ADT TWEAK
-# - type: technology
-#   id: PortableFission
-#   name: research-technology-portable-fission
-#   icon:
-#     sprite: Objects/Power/power_cells.rsi
-#     state: microreactor
-#   discipline: Industrial
-#   tier: 3
-#   cost: 10000
-#   recipeUnlocks:
-#   - PowerCellMicroreactor
-#   technologyPrerequisites:
-#   - AdvancedPowercells
+  #ADT TWEAK
+  # - type: technology
+  #   id: PortableFission
+  #   name: research-technology-portable-fission
+  #   icon:
+  #     sprite: Objects/Power/power_cells.rsi
+  #     state: microreactor
+  #   discipline: Industrial
+  #   tier: 3
+  #   cost: 10000
+  #   recipeUnlocks:
+  #   - PowerCellMicroreactor
+  #   technologyPrerequisites:
+  #   - AdvancedPowercells
